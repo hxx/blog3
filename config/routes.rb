@@ -18,6 +18,8 @@ Blog3::Application.routes.draw do
     resources :comments
   end
 
+  resource :sessions
+
   # Example resource route with options:
   #   resources :products do
   #     member do
